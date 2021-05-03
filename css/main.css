@@ -157,7 +157,7 @@ iframe {
   font-family: "Inter", Arial, "Helvetica Neue", "Segoe UI", sans-serif, "Apple Color Emoji", "Segoe UI Symbol", "Noto Color Emjoi";
   font-size: 15px;
   line-height: 1.6;
-  color: #00ad5f;
+  color: #3167eb;
 }
 .txt3Paragraph1{
   color: #999999;
@@ -202,7 +202,7 @@ iframe {
 }
 
 .wrap-contact100 {
-  width: 1120px;
+  width: 1180px;
   background: #fff;
   overflow: hidden;
   display: -webkit-box;
@@ -398,7 +398,7 @@ textarea.input100 {
   min-width: 200px;
   height: 50px;
   border-radius: 2px;
-  background: #00ad5f;
+  background: #3167eb;
 
   font-family: Montserrat-Bold;
   font-size: 12px;
@@ -584,6 +584,15 @@ textarea.input100 {
 .footer-copyright {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+#firstIcon {
+  color: black;
+}
+#secondIcon {
+  color: black;
+}
+#thirdIcon {
+  color: black;
 }
 
 
