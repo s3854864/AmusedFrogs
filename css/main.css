@@ -594,6 +594,9 @@ textarea.input100 {
 #thirdIcon {
   color: black;
 }
+#message {
+  resize: none;
+}
 
 
 
