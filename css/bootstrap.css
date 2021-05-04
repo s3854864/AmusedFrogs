@@ -10232,4 +10232,10 @@ input[type=number]
 #bundle-pack {
   margin-left: 10px;
 }
+a.long-button {
+  padding: 10px;
+  text-align: center;
+  border-radius: 4px;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */
