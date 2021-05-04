@@ -405,8 +405,8 @@ textarea.input100 {
   border-radius: 2px;
   background: #3167eb;
 
-  font-family: Montserrat-Bold;
-  font-size: 12px;
+  font-family: "Inter", Arial, "Helvetica Neue", "Segoe UI", sans-serif, "Apple Color Emoji", "Segoe UI Symbol", "Noto Color Emjoi";
+  font-size: 15px;
   color: #fff;
   line-height: 1.2;
   text-transform: uppercase;
