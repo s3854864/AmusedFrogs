@@ -128,7 +128,10 @@
 	Melbourne. Powercore Digital aims to deliver cryptocurrency mining equipment at a low-cost for university students, who are some of hte biggest small-scale miners. Typically,
 university students do not have the buying power for the equipment required to mine, we aim to solve this problem by cutting costs and providing older model graphics cards designed for mining. </p>
 
-
+<button type="button" class="collapsible">test</button>
+<div class="content">
+  <p>hello hello</p>
+</div>
 
 
 </div> <!-- container .//  -->
@@ -228,3 +231,19 @@ university students do not have the buying power for the equipment required to m
 
 </body>
 </html>
+<script>
+	var coll = document.getElementsByClassName("collapsible");
+	var i;
+	
+	for (i = 0; i < coll.length; i++) {
+	  coll[i].addEventListener("click", function() {
+		this.classList.toggle("active");
+		var content = this.nextElementSibling;
+		if (content.style.display === "block") {
+		  content.style.display = "none";
+		} else {
+		  content.style.display = "block";
+		}
+	  });
+	}
+	</script>
