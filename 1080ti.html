@@ -126,12 +126,53 @@
             <h3> $750 For 1 / $2050 For 3 Pack Bundle / $3450 for 5 Pack Bundle</h3>
             <br>
             <form action="/action_page.php">
-                <label for="cars">Choose Quantity</label>
-                <select id="cars" name="cars">
-                    <option value="volvo">Single</option>
-                    <option value="saab">3 Pack Bundle</option>
-                    <option value="fiat">5 Pack Bundle</option>
+                <label for="bundle-pack">Bundle Pack: </label>
+                <select id="bundle-pack" name="bundle-pack">
+                    <option value="None">None</option>
+                    <option value="3 Pack Bundle">3 Pack Bundle</option>
+                    <option value="5 Pack Bundle">5 Pack Bundle</option>
                 </select>
+                <br><br>
+                <div class="product-container">  
+                    <div class="quantity">
+                       <input type="number" min="1" max="9" step="1" value="1">
+                    </div>
+                </div>
+                  <script>
+                          jQuery('<div class="quantity-nav"><div class="quantity-button quantity-up">+</div><div class="quantity-button quantity-down">-</div></div>').insertAfter('.quantity input');
+    jQuery('.quantity').each(function() {
+      var spinner = jQuery(this),
+        input = spinner.find('input[type="number"]'),
+        btnUp = spinner.find('.quantity-up'),
+        btnDown = spinner.find('.quantity-down'),
+        min = input.attr('min'),
+        max = input.attr('max');
+
+      btnUp.click(function() {
+        var oldValue = parseFloat(input.val());
+        if (oldValue >= max) {
+          var newVal = oldValue;
+        } else {
+          var newVal = oldValue + 1;
+        }
+        spinner.find("input").val(newVal);
+        spinner.find("input").trigger("change");
+      });
+
+      btnDown.click(function() {
+        var oldValue = parseFloat(input.val());
+        if (oldValue <= min) {
+          var newVal = oldValue;
+        } else {
+          var newVal = oldValue - 1;
+        }
+        spinner.find("input").val(newVal);
+        spinner.find("input").trigger("change");
+      });
+
+    });
+                  </script>
+                  <br><br><br>
                 <button action="#" style="background-color: #3167eb;color: white;"> Add To Cart</button>
                 <a data-original-title="Save to Wishlist" title="" href="" class="btn btn-light" data-toggle="tooltip">
                     <i class="fa fa-heart"></i></a>
@@ -162,7 +203,7 @@
 
                     </ul> <br>
                     </article>
-                    <a href="javascript: history.back()" class="btn btn-light" style="background-color: #3167eb;color: white;"> &laquo Back To Shopping</a>
+                    <a href="product-listings-page1.html" class="btn btn-light" style="background-color: #3167eb;color: white;"> &laquo Back To Shopping</a>
                 </div> <!-- col.// -->
                 <div class="col-md-4">
                     <p>
