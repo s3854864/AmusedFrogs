@@ -4575,7 +4575,7 @@ input[type=button].btn-block {
 .breadcrumb-item + .breadcrumb-item::before {
   display: inline-block;
   padding-right: 0.5rem;
-  color: #545454;
+  color: white;
   content: "/";
 }
 .breadcrumb-item + .breadcrumb-item:hover::before {
@@ -10149,6 +10149,12 @@ h3 {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+.home {
+  color: white; 
+}
+.home:hover {
+  color: #545454;
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
