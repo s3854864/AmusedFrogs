@@ -10149,10 +10149,13 @@ h3 {
     color: inherit;
     border-color: #dee2e6;
   }
+
+/* scripts for collapsibles in about us */ 
+
 }
 .collapsible {
-  background-color: #eee;
-  color: #444;
+  background-color: #3167eb;
+  color: #fff;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -10164,7 +10167,8 @@ h3 {
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
-  background-color: #ccc;
+  background-color: #969696;
+  color: black;
 }
 
 /* Style the collapsible content. Note: hidden by default */
