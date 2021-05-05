@@ -116,128 +116,221 @@
         <div class="container">
             <section class="section-pagetop bg-primary">
                 <div class="container">
-                    <h2 class="title-page text-white">Asus ROG- Nvidia GeForce GTX 1080Ti</h2>
-
+                    <nav>
+                        <ol class="breadcrumb text-white">
+                            <li class="breadcrumb-item"><a class= "home" href="index.html">Home</a></li>
+                            <li class="breadcrumb-item"><a class= "home" href="product-listings-page1.html">Graphics Cards</a></li>
+                            <li class="breadcrumb-item active" aria-current="page" style="color: white;background-color: #3167eb;">ASUS ROG Nvidia GeForce GTX 1080Ti</li>
+                        </ol>  
+                    </nav>
+                    <h2 class="title-page text-white">ASUS ROG Nvidia GeForce GTX 1080Ti</h2>
                 </div> <!-- container //  -->
             </section>
             <br>
-            <img src="assets/images/Geforce1080Ti.jpg" style="width: 400px;">
-            <br><br>
-            <h3> $750 For 1 / $2050 For 3 Pack Bundle / $3450 for 5 Pack Bundle</h3>
-            <br>
-            <form action="/action_page.php">
-                <label for="bundle-pack">Bundle Pack: </label>
-                <select id="bundle-pack" name="bundle-pack">
-                    <option value="None">None</option>
-                    <option value="3 Pack Bundle">3 Pack Bundle</option>
-                    <option value="5 Pack Bundle">5 Pack Bundle</option>
-                </select>
-                <br><br>
-                <div class="product-container">  
-                    <div class="quantity">
-                       <input type="number" min="1" max="9" step="1" value="1">
-                    </div>
-                </div>
-                  <script>
-                          jQuery('<div class="quantity-nav"><div class="quantity-button quantity-up">+</div><div class="quantity-button quantity-down">-</div></div>').insertAfter('.quantity input');
-    jQuery('.quantity').each(function() {
-      var spinner = jQuery(this),
-        input = spinner.find('input[type="number"]'),
-        btnUp = spinner.find('.quantity-up'),
-        btnDown = spinner.find('.quantity-down'),
-        min = input.attr('min'),
-        max = input.attr('max');
-
-      btnUp.click(function() {
-        var oldValue = parseFloat(input.val());
-        if (oldValue >= max) {
-          var newVal = oldValue;
-        } else {
-          var newVal = oldValue + 1;
-        }
-        spinner.find("input").val(newVal);
-        spinner.find("input").trigger("change");
-      });
-
-      btnDown.click(function() {
-        var oldValue = parseFloat(input.val());
-        if (oldValue <= min) {
-          var newVal = oldValue;
-        } else {
-          var newVal = oldValue - 1;
-        }
-        spinner.find("input").val(newVal);
-        spinner.find("input").trigger("change");
-      });
-
-    });
-                  </script>
-                  <br><br><br>
-                <button action="#" style="background-color: #3167eb;color: white;"> Add To Cart</button>
-                <a data-original-title="Save to Wishlist" title="" href="" class="btn btn-light" data-toggle="tooltip">
-                    <i class="fa fa-heart"></i></a>
-            </form>
-
-
-            <div class="row">
-                <div class="col-md-4">
-
-                    <header class="section-heading">
-
-                        <h2 class="section-title">Description & Specs</h2>
-                    </header><!-- sect-heading -->
-                    <ul>
-                        <li>Memory: 11Gb GDDR5X </li>
-                        <li>NVIDIA CUDA Cores: 3584</li>
-                        <li>Boost Clock (MHz): 1582MHz</li>
-                        <li>Display Resolution: 7680x4320@60Hz</li>
-                        <li> Multi-Monitor: Yes</li>
-                        <li>VR Ready: Yes</li>
-                        <li>NVIDIA G-SYNC: Yes</li>
-                        <li> NVIDIA GPU Boost: 3.0</li>
-                        <li>GPU Power: 250W</li>
-                        <li>Recommended System Power: 600W</li>
-                        <li>GPU Height: 4.376"</li>
-                        <li>GPU Length:10.5"</li>
-                        <li> GPU Width: 2-Slot</li>
-
-                    </ul> <br>
-                    </article>
-                    <a href="product-listings-page1.html" class="btn btn-light" style="background-color: #3167eb;color: white;"> &laquo Back To Shopping</a>
+            <div class="card">
+                <div class="row no-gutters">
+                    <aside class="col-sm-6 border-right">
+            <article class="gallery-wrap"> 
+                <div class="img-big-wrap">
+                   <a href="#"><img src="/assets/images/Geforce1080Ti.jpg"></a>
+                </div> <!-- img-big-wrap.// -->
+                <!-- <div class="thumbs-wrap">
+                  <a href="#" class="item-thumb"> <img src="../images/items/1.jpg"></a>
+                  <a href="#" class="item-thumb"> <img src="../images/items/2.jpg"></a>
+                  <a href="#" class="item-thumb"> <img src="../images/items/3.jpg"></a>
+                  <a href="#" class="item-thumb"> <img src="../images/items/4.jpg"></a>
+                </div> thumbs-wrap.// -->
+            </article> <!-- gallery-wrap .end// -->
+                    </aside>
+                    <main class="col-sm-6">
+            <article class="content-body">
+                <p>Here goes description consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris.</p>
+                <ul class="list-normal cols-two">
+                    <li>Not just for commute </li>
+                    <li>Branded tongue and cuff </li>
+                    <li>Super fast and amazing </li>
+                    <li>Lorem sed do eiusmod tempor </li>
+                    <li>Easy fast and ver good </li>
+                    <li>Lorem sed do eiusmod tempor  </li>
+                </ul>
+            
+            <div class="h3 mb-4"> 
+                <var class="price h4">$450.00</var> 
+            </div> <!-- price-wrap.// -->
+            
+            <div class="form-row">
+                <div class="col-2">
+                    <select class="form-control">
+                          <option> 1 </option>
+                          <option> 2 </option>
+                          <option> 3 </option>
+                      </select>
                 </div> <!-- col.// -->
-                <div class="col-md-4">
-                    <p>
 
-                    </p>
+                <div class="col">
+                    <a href="#" class="btn  btn-primary w-100"> Add to cart <i class="fas fa-shopping-cart"></i>  </a>
                 </div> <!-- col.// -->
-                <div class="col-md-4">
-                    <header class="section-heading">
-
-                        <h2 class="section-title">Reviews</h2>
-                    </header><!-- sect-heading -->
-                    <h5>Steve J</h5>
-                    <p>Awesome! Wish Iphones had this inside!
-                        <br><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                            class="fas fa-star"></i><i class="far fa-star"></i>
-                    </p>
-                    <br>
-                    <h5>Elon M</h5>
-                    <p> REALLY GOOD! Put this in my car, and now it does 400mph<br>
-
-                        </b><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                            class="fas fa-star"></i><i class="fas fa-star"></i></p>
-                    <br>
-                    <h5>Bill G</h5>
-                    <p>This Bad Boy has made me RICH! <br>
-
-                        </b><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
-                            class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                <div class="col">
+                    <a href="#" class="btn  btn-light"> <i class="fas fa-heart"></i>  </a>
                 </div> <!-- col.// -->
             </div> <!-- row.// -->
+            
+            </article> <!-- product-info-aside .// -->
+                    </main> <!-- col.// -->
+                </div> <!-- row.// -->
+            </div> <!-- card.// -->
+            <br>
 
-        </div><!-- container // -->
-    </section>
 
+
+            <article class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <aside class="col-md-6">
+                            <h5>Parameters</h5>
+                            <dl class="row">
+                                  <dt class="col-sm-3">Display</dt>
+                                  <dd class="col-sm-9">13.3-inch LED-backlit display with IPS</dd>
+            
+                                  <dt class="col-sm-3">Processor</dt>
+                                  <dd class="col-sm-9">2.3GHz dual-core Intel Core i5</dd>
+            
+                                  <dt class="col-sm-3">Camera</dt>
+                                  <dd class="col-sm-9">720p FaceTime HD camera</dd>
+            
+                                  <dt class="col-sm-3">Memory</dt>
+                                  <dd class="col-sm-9">8 GB RAM or 16 GB RAM</dd>
+                                  
+                                  <dt class="col-sm-3">Graphics</dt>
+                                  <dd class="col-sm-9">Intel Iris Plus Graphics 640</dd>
+                            </dl>
+                        </aside>
+                        <aside class="col-md-6">
+                            <h5>Features</h5>
+                            <ul class="list-check">
+                                <li>Best performance of battery</li>
+                                <li>5 years warranty for this product</li>
+                                <li>Amazing features and high quality</li>
+                                <li>Best performance of battery</li>
+                                <li>5 years warranty for this product</li>
+                            </ul>
+                        </aside>
+                    </div> <!-- row.// -->
+                    <hr>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div> <!-- card-body.// -->
+            </article> <!-- card.// -->
+
+            <section class="section-content padding-y bg">
+                <div class="container">
+                
+                <!-- ============================ COMPONENT 1 ================================= -->
+                <div class="row">
+                            <div class="col-md-9">
+                
+                    <header class="section-heading">
+                        <h3>Review</h3>  
+                        <div class="rating-wrap">
+                            <ul class="rating-stars stars-lg">
+                                <li style="width:90%" class="stars-active">
+                                    <img src="/assets/images/stars-active.svg" alt="">
+                                </li>
+                                <li>
+                                    <img src="/assets/images/starts-disable.svg" alt="">
+                                </li>
+                            </ul>
+                            <strong class="label-rating text-lg"> 4.5 <span class="text-muted">| 3 Reviews</span></strong>
+                        </div>
+                    </header>
+                
+                    <article class="box mb-3">
+                        <div class="icontext w-100">
+                            <img src="/assets/images/steve j.jpg" class="img-xs icon rounded-circle">
+                            <div class="text">
+                                <span class="date text-muted float-md-right">5.05.2020 </span>  
+                                <h6 class="mb-1">Steve J </h6>
+                                <ul class="rating-stars">
+                                    <li style="width:80%" class="stars-active">
+                                        <img src="/assets/images/stars-active.svg" alt="">
+                                    </li>
+                                    <li>
+                                        <img src="/assets/images/starts-disable.svg" alt="">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div> <!-- icontext.// -->
+                        <div class="mt-3">
+                            <p>
+                                Awesome! Wish Iphones had this inside!
+                            </p>	
+                        </div>
+                    </article>
+                
+                    <article class="box mb-3">
+                        <div class="icontext w-100">
+                            <img src="/assets/images/elon m.jpg" class="img-xs icon rounded-circle">
+                            <div class="text">
+                                <span class="date text-muted float-md-right">1.05.2021 </span>  
+                                <h6 class="mb-1">Elon M </h6>
+                                <ul class="rating-stars">
+                                    <li style="width:100%" class="stars-active">
+                                        <img src="/assets/images/stars-active.svg" alt="">
+                                    </li>
+                                    <li>
+                                        <img src="/assets/images/starts-disable.svg" alt="">
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div> <!-- icontext.// -->
+                        <div class="mt-3">
+                            <p>
+                                REALLY GOOD! Put this in my car, and now it does 400mph
+                            </p>	
+                        </div>
+                    </article>
+                
+                    <article class="box mb-3">
+                        <div class="icontext w-100">
+                            <img src="/assets/images/bill g.jpg" class="img-xs icon rounded-circle">
+                            <div class="text">
+                                <span class="date text-muted float-md-right">29.04.2021 </span>  
+                                <h6 class="mb-1">Bill G </h6>
+                                <ul class="rating-stars">
+                                    <li style="width:100%" class="stars-active">
+                                        <img src="/assets/images/stars-active.svg" alt="">
+                                    </li>
+                                    <li>
+                                        <img src="/assets/images/starts-disable.svg" alt="">
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div> <!-- icontext.// -->
+                        <div class="mt-3">
+                            <p>
+                                Dummy comment Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            </p>	
+                        </div>
+                    </article>
+                
+                    </div> <!-- col.// -->
+                </div> <!-- row.// -->
+                <!-- ============================ COMPONENT 1 END .// ================================= -->
 
 
 
