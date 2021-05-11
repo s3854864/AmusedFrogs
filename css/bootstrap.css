@@ -4372,6 +4372,7 @@ input[type=button].btn-block {
 
 .card-title {
   margin-bottom: 0.75rem;
+  text-align: center;
 }
 
 .card-subtitle {
@@ -10264,6 +10265,28 @@ a.long-button {
   padding: 10px;
   text-align: center;
   border-radius: 4px;
+}
+.show-password {
+  background-color: white;
+  border: none;
+  position: absolute;
+  outline: none;
+  top: 248px;
+  right: 25px;
+}
+.show-password:focus {
+  outline: none;
+}
+.fa-eye-slash {
+  position: relative;
+  outline: none;
+  border: none;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  color: #495057; 
+  opacity: 65%;
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
