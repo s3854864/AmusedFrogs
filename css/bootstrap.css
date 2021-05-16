@@ -10289,5 +10289,8 @@ a.long-button {
   opacity: 65%;
   background-color: none;
 }
+.title {
+  font-size: 14.8px;
+}
 
 /*# sourceMappingURL=bootstrap.css.map */
