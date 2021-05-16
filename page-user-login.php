@@ -117,7 +117,7 @@ $(document).ready(function() {
 	<div class="card mx-auto" style="max-width: 380px; margin-top:100px;">
       <div class="card-body">
       <h2 class="card-title mb-4">Sign in</h2>
-      <form>
+      <form method="POST" action="page-user-login.php">
       	  <a href="#" class="btn btn-facebook btn-block mb-2"> <i class="fab fa-facebook-f"></i> &nbsp  Sign in with Facebook</a>
       	  <a href="#" class="btn btn-google btn-block mb-4"> <i class="fab fa-google"></i> &nbsp  Sign in with Google</a>
           <div class="form-group">
@@ -135,7 +135,7 @@ $(document).ready(function() {
             <label class="float-left custom-control custom-checkbox"> <input type="checkbox" class="custom-control-input" checked=""> <div class="custom-control-label"> Remember </div> </label>
           </div> <!-- form-group form-check .// -->
           <div class="form-group">
-              <button type="submit" class="btn btn-primary btn-block"> Login  </button>
+              <button type="submit" name="submit" class="btn btn-primary btn-block"> Login  </button>
           </div> <!-- form-group// -->    
       </form>
       </div> <!-- card-body.// -->
