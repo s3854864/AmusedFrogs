@@ -10287,6 +10287,7 @@ a.long-button {
   left: 0;
   color: #495057; 
   opacity: 65%;
+  background-color: none;
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
