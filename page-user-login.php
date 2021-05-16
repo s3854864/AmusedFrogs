@@ -1,4 +1,3 @@
-<!DOCTYPE HTML>
 <?php
 if (isset($_POST['btn btn-primary btn-block'])){
 	$user = $_POST['username'];
