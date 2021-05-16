@@ -1,4 +1,24 @@
 <!DOCTYPE html>
+<?php 
+
+	session_start();
+
+	$username = "inte2047"
+	$password = "BinhLe"
+
+	if(isset($_SESSION['Logged_in'] && $_SESSION['Logged_in'] == 'true') {
+		header(Location: index.php)
+	}
+	if(isset($_POST['username']) && isset($_POST['password'])) {
+		if ($_POST['username'] == $username && $_POST['password'] == $password)
+		{
+			$_SESSION['Logged_in'] = true;
+			header(Location: index.php);
+
+		}
+	}
+
+?>
 <html lang="en">
 <head>
 <meta charset="utf-8">
