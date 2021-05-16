@@ -201,6 +201,7 @@ $(document).ready(function() {
 						<li><a href="#"> <i class="fab fa-twitter"></i> Twitter </a></li>
 						<li><a href="#"> <i class="fab fa-instagram"></i> Instagram </a></li>
 						<li><a href="#"> <i class="fab fa-youtube"></i> Youtube </a></li>
+						<li><a href="#"> <i class="fab fa-youtube"></i> Youtube </a></li>
 					</ul>
 				</aside>
 			</div> <!-- row.// -->
