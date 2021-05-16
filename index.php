@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <head>
 	<title>PowerCore Digital</title>
 
@@ -524,4 +525,4 @@
 			
 			
 			</body>
-			</html>
+</html>
