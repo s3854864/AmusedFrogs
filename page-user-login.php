@@ -1,24 +1,4 @@
 <!DOCTYPE html>
-<?php 
-
-	session_start();
-
-	$username = "inte2047"
-	$password = "BinhLe"
-
-	if(isset($_SESSION['Logged_in'] && $_SESSION['Logged_in'] == 'true') {
-		header(Location: index.php)
-	}
-	if(isset($_POST['username']) && isset($_POST['password'])) {
-		if ($_POST['username'] == $username && $_POST['password'] == $password)
-		{
-			$_SESSION['Logged_in'] = true;
-			header(Location: index.php);
-
-		}
-	}
-
-?>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -131,10 +111,10 @@ $(document).ready(function() {
       	  <a href="#" class="btn btn-facebook btn-block mb-2"> <i class="fab fa-facebook-f"></i> &nbsp  Sign in with Facebook</a>
       	  <a href="#" class="btn btn-google btn-block mb-4"> <i class="fab fa-google"></i> &nbsp  Sign in with Google</a>
           <div class="form-group">
-			 <input name="username" class="form-control" placeholder="Username" type="text" id="user_username">
+			 <input name="username" class="form-control" placeholder="Username" type="text" id="user_username" required>
           </div> <!-- form-group// -->
           <div class="form-group">
-			<input name="password" class="form-control" placeholder="Password" type="password" id="user_password">
+			<input name="password" class="form-control" placeholder="Password" type="password" id="user_password" required>
 			<button type="button" class="show-password" onclick="passwordFunction()">
 				<i class="far fa-eye-slash"></i>
 			</button>
@@ -145,7 +125,7 @@ $(document).ready(function() {
             <label class="float-left custom-control custom-checkbox"> <input type="checkbox" class="custom-control-input" checked=""> <div class="custom-control-label"> Remember </div> </label>
           </div> <!-- form-group form-check .// -->
           <div class="form-group">
-              <button type="submit" name="submit" class="btn btn-primary btn-block"> Login  </button>
+              <input type="submit" name="submit" class="btn btn-primary btn-block" value=Login>
           </div> <!-- form-group// -->    
       </form>
       </div> <!-- card-body.// -->
