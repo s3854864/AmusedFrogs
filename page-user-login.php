@@ -1,4 +1,15 @@
 <!DOCTYPE HTML>
+<?php
+if (isset($_POST['btn btn-primary btn-block'])){
+	$user = $_POST['username'];
+	$_pass = $_POST['password'];
+	if($user=='admin' && $pass=='admin'){
+		echo("username and password matched");
+	} else{
+	echo("error! please enter correct details");
+	}
+}
+?>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -111,10 +122,10 @@ $(document).ready(function() {
       	  <a href="#" class="btn btn-facebook btn-block mb-2"> <i class="fab fa-facebook-f"></i> &nbsp  Sign in with Facebook</a>
       	  <a href="#" class="btn btn-google btn-block mb-4"> <i class="fab fa-google"></i> &nbsp  Sign in with Google</a>
           <div class="form-group">
-			 <input name="" class="form-control" placeholder="Username" type="text">
+			 <input name="username" class="form-control" placeholder="Username" type="text">
           </div> <!-- form-group// -->
           <div class="form-group">
-			<input name="" class="form-control" placeholder="Password" type="password" id="user_password">
+			<input name="password" class="form-control" placeholder="Password" type="password" id="user_password">
 			<button type="button" class="show-password" onclick="passwordFunction()">
 				<i class="far fa-eye-slash"></i>
 			</button>
