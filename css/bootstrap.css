@@ -4349,8 +4349,9 @@ input[type=button].btn-block {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0);
   border-radius: 0.37rem;
+  height: 965px;
 }
 .card > hr {
   margin-right: 0;
@@ -10291,6 +10292,49 @@ a.long-button {
 }
 .title {
   font-size: 14.8px;
+}
+.card-body-payment {
+  position: absolute;
+  width: 500px;
+  margin: 0px;
+  top: 57px;
+  left: 150px;
+}
+.expiration {
+  width: 120px;
+  height: 30px;
+  font-size: 23px;
+  line-height: 30px;
+  padding: 5px;
+}
+.card-shadow {
+  position: absolute;
+  left: 1010px;
+  bottom: -378px;
+  border: 1px solid lightgray;
+}
+.small mb-3 text-muted {
+  font-family: "Inter", Arial, "Helvetica Neue", "Segoe UI", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.termsandconditionslabel {
+  font-family: "Inter", Arial, "Helvetica Neue", "Segoe UI", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  color: #969696;
+  font-size: 80%;
+  font-weight: 400;
+}
+.termsandconditions {
+  position: relative;
+  left: 4px;
+  bottom: -2px;
+}
+.card-body-delivery {
+  position: absolute;
+  width: 500px;
+  top: 400px;
+  left: 839px;
+}
+.radio-button-style {
+  transform: scale(2);
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
