@@ -57,7 +57,7 @@ $(document).ready(function() {
 			<div class="container">
 		<div class="row align-items-center">
 			<div class="col-lg-2 col-6">
-				<a href="index.html" style="font-size: 20px;">
+				<a href="index.php" style="font-size: 20px;">
 					<img class="logo"  src="assets/brand/logo/logoblue.png" style= "width: 80px;"> <br> PowerCore Digital
 				</a>
 			</div>
