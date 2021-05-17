@@ -31,10 +31,30 @@
 
         });
 	// jquery end
+
+    const itemList= document.getElementById("item-list")
+    const cartQty= document.getElementById("cart-qty")
+    const cartTotal= document.getElementById("cart-total")
+    const addForm= document.getElementById("add-form")
+
+    const cart= []
+
+    addForm.onsubmit function(e){
+        e.preventDefault()
+        console.log(e)
+    }
+
     </script>
 
 
 <body>
+
+    <form id= "add-form">
+        <label> <input id="item-name" type="text" placeholder="Item Name"></label>
+        <label> <input id="item-price" type="text" placeholder="Item Price"></label>
+            <button type= "submit"> Add Item</button>
+    </form>
+
     <header class="section-header">
 
         <section class="header-main border-bottom">
@@ -159,6 +179,8 @@
             <div class="h3 mb-4"> 
                 <var class="price h4">$750.00</var> 
             </div> <!-- price-wrap.// -->
+            
+
             
             <div class="form-row">
                 <div class="col-2">
