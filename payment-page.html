@@ -129,7 +129,7 @@ $(document).ready(function() {
 <div class="container">
 
 <div class="row">
-	<main class="col-md-8">
+	<main class="col-md-6">
 		<div class="card-payment-page">
 			<div class="card-body-payment">
 			<h3 class="card-title mb-4">Payment Information</h3>
@@ -241,7 +241,7 @@ $(document).ready(function() {
 
 
 	</main> <!-- col.// -->
-	<aside class="col-md-4">
+	<aside class="col-md-6">
 		<div class="card mb-3">
 			<div class="card-body">
 				<div class="card-body-delivery">
@@ -273,11 +273,107 @@ $(document).ready(function() {
 					<label>Confirm Phone Number</label>
 						<input type="text" class="form-control" placeholder="">
 				</div> <!-- form-group end.// -->
-			</div> <!-- form-row end.// -->
-		
-			<br>                       
+			</div> <!-- form-row end.// -->                 
 			</form>
 				</div> <!-- card-body.// -->
+        <div class="card-body-overview">
+          <br><h3 class="Order-Summary" style="text-align: left;">Order Summary</h3><br>
+          
+          <table class="table table-borderless table-shopping-cart">
+          <thead class="text-muted">
+          <tr class="small text-uppercase">
+            <th scope="col" width="120">Product</th>
+            <th scope="col" width="120">Quantity</th>
+            <th scope="col" width="120">Price</th>
+            <th scope="col" class="text-right" width="200"> </th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+              <td class="test">
+                  <figure class="itemside">
+                      <div class="aside"><img src="images\Geforce1080Ti.jpg" class="img-sm"></div>
+                      <figcaption class="info">
+                          <p class="title text-dark">ASUS ROG Strix GTX 1080 Ti (11 GB)</p>
+                      </figcaption>
+                  </figure>
+              </td>
+              <td> 
+                  <select class="form-control">
+                      <option>1</option>
+                      <option>2</option>	
+                      <option>3</option>		
+                  </select> 
+              </td>
+              <td> 
+                  <div class="price-wrap"> 
+                      <var class="price">$1156.00</var> 
+                      <small class="text-muted"> Delivery: $0.99 </small> 
+                  </div> <!-- price-wrap .// -->
+              </td>
+              <td class="text-right-table"> 
+              <a data-original-title="Save to Wishlist" title="" href="" class="payment-page-button1" data-toggle="tooltip"> <i class="fa fa-heart"></i></a> 
+              <a href="" class="payment-page-button"> Remove</a>
+              </td>
+          </tr>
+          <tr>
+              <td>
+                  <figure class="itemside">
+                      <div class="aside"><img src="assets\images\GeForce_GTX_1080Ti_3qtr_Front_Left.png" class="img-sm"></div>
+                      <figcaption class="info">
+                          <a href="#" class="title text-dark">Nvidia GeForce® GTX 1080 Ti</a>
+                      </figcaption>
+                  </figure>
+              </td>
+              <td> 
+                  <select class="form-control">
+                      <option>1</option>
+                      <option>2</option>	
+                      <option>3</option>		
+                  </select> 
+              </td>
+              <td> 
+                  <div class="price-wrap"> 
+                      <var class="price">$149.97</var> 
+                      <small  class="text-muted"> Delivery: $0.99 </small>  
+                  </div> <!-- price-wrap .// -->
+              </td>
+              <td class="text-right"> 
+              <a data-original-title="Save to Wishlist" title="" href="" class="payment-page-button1" data-toggle="tooltip"> <i class="fa fa-heart"></i></a> 
+              <a href="" class="payment-page-button"> Remove</a>
+              </td>
+          </tr>
+          <tr>
+              <td>
+                  <figure class="itemside">
+                      <div class="aside"><img src="assets\images\rtx2070.jpg" class="img-sm"></div>
+                      <figcaption class="info">
+                          <a href="#" class="title text-dark">Nvidia GeForce® RTX 2070 - Founder’s Edition (8 GB GDDR6)</a>
+                      </figcaption>
+                  </figure>
+              </td>
+              <td> 
+                  <select class="form-control">
+                      <option>1</option>
+                      <option>2</option>	
+                      <option>3</option>	
+                  </select> 
+              </td>
+              <td> 
+                  <div class="price-wrap"> 
+                      <var class="price">$98.00</var> 
+                      <small class="text-muted"> Delivery: $0.99</small> 
+                  </div> <!-- price-wrap .// -->
+              </td>
+              <td class="text-right"> 
+                  <a data-original-title="Save to Wishlist" title="" href="" class="payment-page-button1" data-toggle="tooltip"> <i class="fa fa-heart"></i></a> 
+                  <a href="" class="payment-page-button"> Remove</a>
+              </td>
+          </tr>
+          </tbody>
+          </table>
+          </div>
+          </div> <!-- card.// -->
 		</div> <!-- card .// -->
     <div class="card-shadow">
     <div class="card-body">
@@ -297,7 +393,7 @@ $(document).ready(function() {
         <hr>
         <dl class="dlist-align">
           <dt>Total:</dt>
-          <dd class="h5">$850.00</dd>
+          <dd class="h5">$2,729.27</dd>
         </dl>
         <hr>
         <p class="small mb-3 text-muted">By clicking, you are agree with terms and condition </p>
