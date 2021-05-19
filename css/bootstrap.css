@@ -10349,6 +10349,14 @@ a.long-button {
 }
 
 .ty-page{
-  padding: 10%;
+  padding: 9%;
 }
+.ty-text{
+  text-align: center;
+  padding: 2%;
+}
+.confirmation-icon{
+  text-align: center;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */
